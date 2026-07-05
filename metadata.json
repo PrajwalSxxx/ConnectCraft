@@ -1,0 +1,6 @@
+{
+  "name": "ConnectCraft",
+  "description": "Interactive Java Multi-Client Socket Chat Application Simulator and Code Explorer",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

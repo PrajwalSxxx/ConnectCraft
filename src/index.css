@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-elegant-bg: #07090e;
+  --color-elegant-card: #0f131d;
+  --color-elegant-card-alt: #141a27;
+  --color-elegant-card-hover: #192030;
+  --color-elegant-border: rgba(212, 175, 55, 0.12);
+  --color-elegant-border-hover: rgba(212, 175, 55, 0.28);
+  --color-elegant-gold: #d4af37;
+  --color-elegant-gold-light: #f3e5ab;
+  --color-elegant-gold-dark: #aa7c11;
+  --color-elegant-gold-muted: rgba(212, 175, 55, 0.15);
+  --color-elegant-platinum: #e5e5e5;
+  --color-elegant-muted: #8e9cae;
+}
+
+/* Custom gorgeous scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.3);
+}
+
+/* Custom high fidelity classes */
+.elegant-gradient {
+  background: radial-gradient(circle at top left, #141a27 0%, #07090e 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.08);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.15);
+}
